@@ -1,0 +1,331 @@
+@import "_header";
+@import "_nullstyle.scss";
+
+body {
+  background: #F8F8F8;
+}
+
+.header {
+
+  &__container {}
+
+  &__content {
+    margin: 60px 0px 55px 0px;
+  }
+
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__img {
+    margin: 0px 150px 0px 0px;
+
+  }
+
+  &__nav {
+    display: inline-block;
+  }
+
+  &__login {
+    display: inline-block;
+  }
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.nav {
+
+  &__list {
+    margin: 0px 100px 0px 0px;
+  }
+
+  &__list>li {
+    display: inline-block;
+    margin: 0px 40px 0px 0px;
+  }
+
+  &__list>li:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 28px;
+    color: #222831;
+    font-weight: bold;
+  }
+}
+
+.login {
+
+  &__column {
+    display: inline-block;
+  }
+
+  &__link {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 24px;
+    display: inline-block;
+  }
+
+  &__link-log {
+    color: #FF5722;
+  }
+
+  &__link-sign {
+    background: #FF5722;
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+    color: #fff;
+  }
+}
+
+.about {
+
+  &__container {}
+
+  &__content {
+    margin: 0px 0px 65px 0px;
+  }
+
+  &__heading {
+    display: inline-block;
+    max-width: 665px;
+    margin: 0px 60px 0px 0px;
+  }
+
+  &__subtitle {
+    position: relative;
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222831;
+    max-width: 190px;
+  }
+
+  &__subtitle:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 72px;
+    background: #222831;
+    top: 50%;
+    right: 0;
+  }
+
+  div &__title {
+    font-size: 52px;
+    line-height: 67px;
+  }
+
+  &__title span {
+    color: #DD2C00;
+  }
+
+  &__text {
+    display: inline-block;
+    max-width: 380px;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: top;
+    color: #6A6A6A;
+  }
+}
+
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 51px;
+  color: #10375C;
+}
+
+.advantages {
+
+  &__container {}
+
+  &__content {
+    margin: 0px 0px 50px 0px;
+  }
+
+  &__left {
+    display: inline-block;
+    margin: 0px 70px 0px 0px;
+    padding: 30px 0px 0px 0px;
+  }
+
+  &__right {
+    vertical-align: top;
+    display: inline-block;
+
+  }
+
+  &__column {
+    display: inline-block;
+    margin: 0px 120px 0px 0px;
+  }
+
+  &__column:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+
+  &__item {}
+}
+
+.right-advantages {
+  &__content {
+    max-width: 540px;
+    height: 400px;
+    background: #10375C;
+    padding: 54px;
+    color: #FFFFFF;
+
+  }
+
+  &__subtitle {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 110px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  &__subtitle::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 72px;
+    background: #FFFFFF;
+    top: 50%;
+    left: 100%;
+  }
+
+  &__heading {}
+
+  &__title {
+    color: #FFFFFF;
+    margin: 0px 0px 25px 0px;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 430px;
+  }
+}
+
+
+.item-advantages {
+  margin: 0px 0px 62px 0px;
+
+  &__logo {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 7px;
+    margin: 0px 25px 0px 0px;
+  }
+
+  &__img {}
+
+  &__heading {
+    display: inline-block;
+
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 41px;
+    color: #10375C;
+    margin: 0px 0px 8px 0px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.subtitle {
+  color: #9A9A9A;
+}
+
+.who {
+
+  &__container {
+    max-width: 1175px;
+  }
+
+  &__content {
+    margin: 0px 0px 110px 0px;
+  }
+
+  &__heading {
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0px 0px 25px 0px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 0px 56px 0px;
+  }
+
+  &__clients {}
+}
+
+.clients-who {
+
+  &__list {}
+
+  &__list>li {
+    display: inline-block;
+    margin: 0px 55px 0px 0px;
+    vertical-align: middle;
+  }
+
+  &__list>li:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+
+  &__img {}
+}
+
+.news-item {
+
+  &__content {
+    background: #fff;
+    width: 320px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__picture {}
+
+  &__img {
+    width: 100%;
+  }
+
+  &__heading {
+    padding: 14px 16px 16px 16px;
+  }
+
+  &__title {
+    font-size: 22px;
+    line-height: 28px;
+    color: #222831;
+    margin: 0px 0px 5px 0px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
